@@ -5,7 +5,7 @@ import { parseHTML } from 'k6/html';
 // ⚠️ ВАЖНО: Сюда потом вставишь ссылку на свой GitHub Pages!
 // Пока для локального теста оставь localhost (если запустишь сервер) 
 // или временно поставь ссылку на любой живой сайт, чтобы проверить работу.
-const URL = 'https://vchavkin49-sys.github.io/213/index1.html'; 
+const URL = 'https://vchavkin49-sys.github.io/213/index.html'; 
 
 export const options = {
   vus: 5,            // 5 виртуальных пользователей
