@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>EduPortal — Учебный портал 2024</title>
+  <style>
+    body { font-family: sans-serif; background: #f4f4f9; color: #333; padding: 20px; }
+    .header { text-align: center; margin-bottom: 40px; }
+    .status { color: green; font-weight: bold; }
+    .courses { display: flex; gap: 20px; justify-content: center; margin-bottom: 40px; }
+    .course-card { background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); width: 200px; text-align: center; }
+    .price { font-size: 24px; font-weight: bold; color: #2563EB; }
+    .footer { text-align: center; margin-top: 50px; font-size: 14px; color: #666; }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1 id="main-title">EduPortal</h1>
+    <p>Статус сервера: <span id="server-status" class="status">ONLINE</span></p>
+  </div>
+
+  <nav>
+    <a href="#courses">Курсы</a>
+    <a href="#about">О нас</a>
+  </nav>
+
+  <div class="courses">
+    <div class="course-card">
+      <h2>Математика</h2>
+      <p>Основы высшей математики</p>
+      <div class="price" id="price-math">1500</div>
+    </div>
+    <div class="course-card">
+      <h2>Программирование</h2>
+      <p>Python с нуля</p>
+      <div class="price" id="price-prog">3000</div>
+    </div>
+    <div class="course-card">
+      <h2>Дизайн</h2>
+      <p>UI/UX основы</p>
+      <div class="price" id="price-design">2000</div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <label>Подписка на новости: <input type="email" id="user-email" placeholder="Ваш email"></label>
+    <p>Год: <span id="footer-year">2024</span></p>
+  </div>
+
+</body>
+</html>
